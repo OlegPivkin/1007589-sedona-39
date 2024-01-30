@@ -2,6 +2,7 @@
 
 - Студент: [Олег Пивкин](https://up.htmlacademy.ru/htmlcss/39/user/1007589).
 - Наставник: []().
+- [Мой проект Седона](https://olegpivkin.github.io/1007589-sedona-39/)
 
 ---
 
