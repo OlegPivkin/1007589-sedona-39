@@ -123,6 +123,52 @@
         </li>
       </ul>
     </section>
+    <section class="search">
+      <h2 class="visually-hidden">Поиск гостиниц в городе Седона</h2>
+      <b class="search-title">Заинтересовались?</b>
+      <p class="search-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в
+        Седоне
+      </p>
+      <div class="search-form-container">
+        <a class="search-link" href="">Поиск гостиницы в Седоне</a>
+        <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+          <b class="search-form-title">Поиск гостиницы в Седоне</b>
+          <div class="search-form-date-in">
+            <label class="search-form-label" for="date-in">Дата заезда:</label>
+            <div class="search-form-input-wrapper">
+              <input class="search-form-input" type="text" name="date-in" id="date-in" placeholder="27 апреля 2020">
+              <button class="search-form-calendar" type="button" aria-label="показать календарь"></button>
+            </div>
+          </div>
+          <div class="search-form-date-out">
+            <label class="search-form-label" for="date-out">Дата выезда:</label>
+            <div class="search-form-input-wrapper">
+              <input class="search-form-input" type="text" name="date-out" id="date-out" placeholder="1 сентября 2023">
+              <button class="search-form-calendar" type="button" aria-label="показать календарь"></button>
+            </div>
+          </div>
+          <div class="search-form-info-wrapper">
+            <div class="search-form-calculate">
+              <label class="search-form-calculate-label" for="adult">Взрослые:</label>
+              <div class="search-form-calculate-container">
+                <button class="search-form-btn-minus" type="button" aria-label="уменьшить"></button>
+                <input class="search-form-count" type="text" name="adult" id="adult" value="2">
+                <button class="search-form-btn-plus" type="button" aria-label="увеличить"></button>
+              </div>
+            </div>
+            <div class="search-form-calculate search-form-calculate-kind">
+              <label class="search-form-calculate-label" for="kind">Дети:</label>
+              <div class="search-form-calculate-container">
+                <button class="search-form-btn-minus" type="button" aria-label="уменьшить"></button>
+                <input class="search-form-count" type="text" name="kind" id="kind" value="2">
+                <button class="search-form-btn-plus" type="button" aria-label="увеличить"></button>
+              </div>
+            </div>
+          </div>
+          <button class="search-form-btn-find" type="submit">Найти</button>
+        </form>
+      </div>
+    </section>
   </main>
 
 </body>
