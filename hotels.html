@@ -47,6 +47,83 @@
   </header>
 
   <main class="main-index">
+    <header class="main-header">
+      <h1 class="main-header-title">Гостиницы Седоны</h1>
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link" href="index.html"></a>
+        </li>
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link">Гостиницы</a>
+        </li>
+      </ul>
+
+      <section class="filter-search">
+        <form class="filter-form" action="https://echo.htmlacademy.ru/" method="post">
+          <fieldset class="filter-form-group">
+            <legend class="filter-form-title">Инфраструктура:</legend>
+            <ul class="filter-form-list">
+              <li class="filter-form-item">
+                <input class="visually-hidden" type="checkbox" name="swimming-pool" id="swimming-pool" checked>
+                <label class="filter-form-label" for="swimming-pool">Бассейн</label>
+              </li>
+              <li class="filter-form-item">
+                <input class="visually-hidden" type="checkbox" name="parking" id="parking" checked>
+                <label class="filter-form-label" for="parking">Парковка</label>
+              </li>
+              <li class="filter-form-item">
+                <input class="visually-hidden" type="checkbox" name="wi-fi" id="wi-fi">
+                <label class="filter-form-label" for="wi-fi">Wi-Fi</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="filter-form-group">
+            <legend class="filter-form-title">Тип жилья:</legend>
+            <ul class="filter-form-list">
+              <li class="filter-form-item">
+                <input class="visually-hidden" type="radio" name="hotel" id="hotel" checked>
+                <label class="filter-form-label" for="hotel">Гостиница</label>
+              </li>
+              <li class="filter-form-item">
+                <input class="visually-hidden" type="radio" name="motel" id="motel">
+                <label class="filter-form-label" for="motel">Мотель</label>
+              </li>
+              <li class="filter-form-item">
+                <input class="visually-hidden" type="radio" name="apartment" id="apartment">
+                <label class="filter-form-label" for="apartment">Апартаменты</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="price">
+            <legend class="price-title">Стоимость, ₽:</legend>
+            <ul class="price-list">
+              <li class="price-item">
+                <label class="price-label">от</label>
+                <input class="price-input" type="text" name="min-price" pattern="^[ 0-9]+$" value="0">
+              </li>
+              <li class="price-item price-item-right">
+                <label class="price-label">до</label>
+                <input class="price-input" type="text" name="max-price" pattern="^[ 0-9]+$" value="9000">
+              </li>
+            </ul>
+            <div class="range-filter">
+              <div class="range-filter__controls">
+                <div class="range-filter__scale">
+                  <div class="range-filter__bar"></div>
+                </div>
+                <button class="range-filter__toggle range-filter__toggle--min" type="button"></button>
+                <button class="range-filter__toggle range-filter__toggle--max" type="button"></button>
+              </div>
+            </div>
+            <button class="btn btn-apply" type="submit">Применить</button>
+            <button class="btn btn-reset" type="submit">Сбросить</button>
+          </fieldset>
+        </form>
+    </header>
+    </section>
+
+
 
 
     <section class="newsletter">
