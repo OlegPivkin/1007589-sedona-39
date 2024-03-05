@@ -53,6 +53,7 @@ body {
   text-transform: uppercase;
 }
 
+/* -------index.html------- */
 .main-index {
   background-color: #ffffff;
   background-image: url("../images/background_photo.jpg");
@@ -218,4 +219,42 @@ body {
   line-height: 40px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+/* -------catalog.html------- */
+.inner-header {
+  background-image: url("../images/background_filter.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #a9a9a9;
+}
+
+.main-header-title {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+}
+
+.breadcrumbs-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.filters {
+  color: #ffffff;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.catalog-filter-item {
+  font-size: 18px;
+  line-height: 23px;
 }
