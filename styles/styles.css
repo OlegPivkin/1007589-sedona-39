@@ -17,7 +17,205 @@
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
+  font-weight: 400;
   line-height: 21px;
   color: #000000;
   background-color: #f2f2f2;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.navigation-link-current {
+  border-bottom: 2px solid #756257;
+}
+
+.header-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-index {
+  background-color: #ffffff;
+  background-image: url("../images/background_photo.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.hero-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages_lead {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.advantages_info {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.advantages-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.advantages-item-wide {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.infrastructure-lead {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.infrastructure_info {
+  color: #333333;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.infrastructure-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.search-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.search-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.search-form-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.search-form-label {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.search-form-input {
+  color: inherit;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.search-form-calculate-label {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.search-form-count {
+  color: inherit;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.search-form-btn-find {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #83b3d3;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subscribe {
+  color: #ffffff;
+  background-color: #f2f2f2;
+  background-image: url("../images/background_subscribe.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscribe-info {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.field {
+  color: #000000;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.subscribe-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #ffffff;
+  background-color: #83b3d3;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page-footer {
+  background-color: #ffffff;
+}
+
+.footer-phone {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
