@@ -171,10 +171,16 @@ body {
 
 .subscribe {
   color: #ffffff;
-  background-color: #f2f2f2;
+  background-color: #82b3d3;
   background-image: url("../images/background_subscribe.jpg");
-  background-size: 100% auto;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.subscribe-theme-custom {
+  background: none;
+  color: #000000;
 }
 
 .subscribe-title {
@@ -188,6 +194,10 @@ body {
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.subscribe-info-special {
+  color: #333333;
 }
 
 .field {
