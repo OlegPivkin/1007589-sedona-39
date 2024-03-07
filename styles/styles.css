@@ -20,7 +20,7 @@ body {
   font-weight: 400;
   line-height: 21px;
   color: #000000;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 
 .page-header {
@@ -236,9 +236,6 @@ body {
   line-height: 78px;
 }
 
-.breadcrumbs {
-}
-
 .breadcrumbs-link {
   color: #ffffff;
   text-decoration: none;
@@ -257,4 +254,58 @@ body {
 .catalog-filter-item {
   font-size: 18px;
   line-height: 23px;
+}
+
+.hotels-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.hotels-link {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.hotels-container {
+  color: #333333;
+}
+
+.hotels-btn a {
+  background-color: #82b3d3;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hotels-btn .hotels-btn-brown {
+  background-color: #756157;
+}
+
+.hotels-btn .hotels-btn-green {
+  background-color: #7db54f;
+}
+
+.hotel-rating {
+  color: #333333;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.pagination-link {
+  background-color: #82b3d3;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pagination-current {
+  background-color: #f2f2f2;
+  color: #000000;
 }
