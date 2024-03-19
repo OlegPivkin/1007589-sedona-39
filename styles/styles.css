@@ -14,21 +14,102 @@
   font-display: swap;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
+  margin: 0;
+  height: 100%;
+  min-width: 1280px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-wrapper {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 1200px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* -----header----- */
 .page-header {
+  margin: 0 auto;
+  width: 1060px;
   color: #000000;
   background-color: #ffffff;
+  min-height: 64px;
+  position: relative;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 892px;
+  min-height: 64px;
+  margin-left: 168px;
+}
+
+.navigation-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navigation-item {
+  position: relative;
+}
+
+.navigation-user {
+  text-decoration: none;
+  justify-content: flex-end;
+}
+
+.navigation-logo {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .navigation-link {
+  display: block;
+  font-style: normal;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -36,10 +117,37 @@ body {
   color: #000000;
   background-color: #ffffff;
   text-decoration: none;
+  padding: 20px 16px;
 }
 
-.navigation-link-current {
-  border-bottom: 2px solid #756257;
+.navigation-link-current::before {
+  position: absolute;
+  content: "";
+  left: 16px;
+  right: 16px;
+  bottom: -1px;
+  height: 2px;
+  background: #756257;
+}
+
+.navigation-link:not(.navigation-link-current):hover,
+.navigation-link:not(.navigation-link-current):focus {
+  background-color: #f2f2f2;
+}
+
+.navigation-link:not(.navigation-link-current):active {
+  opacity: 60%;
+}
+
+.navigation-user-link-search {
+  text-decoration: none;
+  position: relative;
+  min-height: 64px;
+  width: 44px;
+  height: 64px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header-button {
